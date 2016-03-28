@@ -15,7 +15,7 @@ sitemap:
     <name>{{ site.author.name }}</name>
     <email>{{ site.author.email }}</email>
   </author>
-  {% for post in site.posts %}
+  {% for post in site.journal %}
     <entry>
       <title>{{ post.title }}</title>
       <link href="{{ site.url }}{{ post.url }}" />
