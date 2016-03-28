@@ -1,0 +1,115 @@
+body {
+  background: $site-bg;
+}
+.container-wrap{
+  background: #FFF;
+  box-shadow: 0px 0px 7px #CCC;
+  overflow: hidden;
+}
+
+
+.static-detail {
+  padding: 1em 0;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    padding: 2em 1em 1em;
+    position: relative;
+  }
+	h3 {
+    border-bottom: 5px solid #000;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    font-size: 175%;
+    padding-bottom: 1rem;
+    line-height: 1.4;
+		@include breakpoint($tablet, $no-query: '.no-mq') {
+      float: left;
+      padding-right: 3rem;
+      width: 24%;
+    }
+	}
+  .detail {
+    overflow: hidden;
+  }
+}
+
+.no-mq .static-detail {
+  h3 {
+    margin-right: 1em;
+    margin-top: .5em;
+    padding-bottom: .5em;
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+      padding-right: 1em;
+    }
+  }
+}
+
+.static-detail-2 {
+  padding: 1em 0 3em;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    padding: 1em 2em 3em;
+    width: 49%;
+    vertical-align: top;
+    display: inline-block;
+  }
+  h3 {
+    border-bottom: 5px solid #000;
+    margin-top: 1em;
+    font-size: 145%;
+    padding-bottom: 1em;
+    line-height: 1.4;
+  }
+}
+
+
+/*
+ * CSS Animations
+ * Don't forget to add vendor prefixes!
+ */
+.m-scene .scene_element {
+  @include animate(.75s, ease-out, both);
+}
+
+.m-scene .scene_element--fadein {
+  @include animate-name(fadeInDownBig);
+}
+
+.m-scene.is-exiting .scene_element {
+  animation-direction: alternate-reverse;
+  -webkit-animation-direction: alternate-reverse;
+}
+
+/*
+ * Keyframes
+ */
+ @-webkit-keyframes fadeInDownBig {
+  /* line 1187, /Users/mperez/Sites/smoothstate/source/stylesheets/keyframes.css.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -200px, 0);
+    transform: translate3d(0, -200px, 0); }
+
+  /* line 1193, /Users/mperez/Sites/smoothstate/source/stylesheets/keyframes.css.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+
+@keyframes fadeInDownBig {
+  /* line 1201, /Users/mperez/Sites/smoothstate/source/stylesheets/keyframes.css.scss */
+  0% {
+    opacity: 0;
+    -moz-transform: translate3d(0, -200px, 0);
+    -webkit-transform: translate3d(0, -200px, 0);
+    -ms-transform: translate3d(0, -200px, 0);
+    transform: translate3d(0, -200px, 0); }
+  100% {
+    opacity: 1;
+    -moz-transform: none;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none; } 
+  }
+
+
+

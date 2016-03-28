@@ -1,0 +1,11 @@
+a {
+  color: $link;
+  text-decoration: none;
+  &:hover {
+    color: $hover;
+    text-decoration: underline;
+  }
+  &:visited {
+    color: $visited;
+  }
+}

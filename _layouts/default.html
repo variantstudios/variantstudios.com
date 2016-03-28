@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]><html class="no-js lte-ie8" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
+  {% include head.html %}
+  <body class="m-scene">
+    {% include browserupgrade.html %}
+    <div class="container-wrap ">
+      {% include header.html %}
+      <div class="wrapper--content clearfix scene_element scene_element--fadein ">
+        <main id="main" class="clearfix"> 
+          {{ content }}
+        </main>
+        {% include footer.html %}
+      </div>
+    </div>
+    {% include scripts.html %}
+  </body>
+</html>

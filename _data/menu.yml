@@ -1,0 +1,12 @@
+- text: portfolio
+  url: /portfolio/
+- text: solutions
+  url: /solutions/
+- text: studio
+  url: /studio/
+- text: journal
+  url: /journal/
+- text: contact
+  url: /contact/
+- text: start a project
+  url: /start-a-project/

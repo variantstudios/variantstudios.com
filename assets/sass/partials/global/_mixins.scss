@@ -1,0 +1,92 @@
+////////////////////////
+// Mixins Partials
+//
+// All of your mixins should go in this file.
+////////////////////////
+
+////////////////////////
+// Mixins Partials
+//
+// All of your mixins should go in this file.
+////////////////////////
+
+@mixin rem($size, $attribute:font-size){
+  #{$attribute}: ($size * 10) + px;
+  #{$attribute}: $size + rem;
+}
+//This is a friendly mixin, not used unless you use it.
+@mixin sticky_footer($height:125px){
+  html, body{
+  height:100%;
+  }
+  #main-region {
+    min-height: 100%;
+    margin-bottom: -($height);
+  }
+  #main-region:after {
+    content: "";
+    display: block;
+  }
+  footer, #main-region:after {
+    height: $height;
+  }
+}
+
+@mixin mp-reset {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin hide-text {
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+
+@mixin gradient($from, $to) {
+  background-image: -webkit-gradient(linear, left top, left bottom, from($from), to($to));
+  background-image: -moz-linear-gradient(top,  $from, $to);
+  background-image: linear-gradient(to bottom right,$from, $to);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$from}', endColorstr='#{$to}');
+}
+
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color;
+    -moz-box-shadow:inset $top $left $blur $color;
+    box-shadow:inset $top $left $blur $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+  }
+}
+
+@mixin animate($duration, $function, $fill-mode) {
+  -webkit-animation-duration: $duration;
+  animation-duration:  $duration;
+
+  -webkit-transition-timing-function: $function;
+  transition-timing-function:  $function;
+
+  -webkit-animation-fill-mode: $fill-mode;
+  animation-fill-mode:  $fill-mode;
+}
+
+@mixin animate-name($name) {
+  -webkit-animation-name: $name;
+  animation-name:  $name;
+}
+
+@mixin transition($object, $duration, $function) {
+  -webkit-transition:$object $duration $function;
+  transition:$object $duration $function;
+}
+
+@mixin animate-link($element, $duration, $type) {
+      -webkit-transition: $element $duration $type;
+    -moz-transition: $element $duration $type;
+    -o-transition: $element $duration $type;
+    transition: $element $duration $type;
+}

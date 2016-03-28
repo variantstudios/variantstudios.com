@@ -1,0 +1,1 @@
+!function(t){"use strict";var a=t("html, body"),e=t("#wrap").smoothState({prefetch:!0,pageCacheSize:22,onStart:{duration:350,render:function(t,o){e.toggleAnimationClass("is-exiting"),a.animate({scrollTop:0})}}}).data("smoothState")}(jQuery);

@@ -1,0 +1,62 @@
+nav {
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    margin-top: .6em;
+    line-height: 2.1;
+  }
+  ul {
+    @include mp-reset;
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+      float: right;
+    }
+  }
+  li {
+     @include breakpoint($tablet, $no-query: '.no-mq') {
+      display: inline-block;
+      position: relative;
+    }
+    a, a:link, a:visited {
+      text-decoration: none;
+      display: inline-block;
+      color: #A2A2A2;
+      @include breakpoint($tablet, $no-query: '.no-mq') {
+        padding: 0 .7em; 
+        font-size: 78%;
+        font-weight: 700;
+      }
+      @include breakpoint($desktop, $no-query: '.no-mq') { font-size: 90%; }
+      &:hover { color: #fff; }
+      &.active {
+        color: #EFEFEF;
+        @include breakpoint($phone) { border-bottom: 1px solid #fff; }
+        &:before {
+          @include breakpoint($tablet, $no-query: '.no-mq') {
+            content: '';
+            position: absolute;
+            height: 5px;
+            width: 100%;
+            background: #FFF;
+            bottom: -1.8rem;
+            left: 0;
+          }
+        }
+      }
+    }
+    &:last-child {
+      a {
+        color: #efefef;
+        padding: 0 10px;
+        display: block;
+        @include breakpoint($tablet, $no-query: '.no-mq') {
+          border: 2px solid #efefef;
+          @include border-radius(36px);
+        }
+        &.active {
+            background: #efefef;
+            color: #000;
+            border: 2px solid #efefef;
+        }
+        &:before { display: none !important; }
+      }
+    } 
+  }
+}

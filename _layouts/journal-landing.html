@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<header class="{{ page.header_class }} header--banner" id="header--banner">
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.subtitle }}</p>
+</header>
+
+{% assign items = site.journal | sort: 'date' | reverse %}
+{% for item in items %}
+  <summary class="news-item row-item" itemscope="" itemtype="http://schema.org/Article">
+    <div class="thumb">
+       <a href="{{ item.url }}">
+        <img src="{{ item.thumbnail }}" alt="{{ item.title }}" itemprop="image">
+      </a>
+     </div>
+     <div class="detail">
+      <span class="post-date" itemprop="datePublished">{{ item.date | date: "%b %-d, %Y" }}</span>
+      <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+        <span class="author-by" itemprop="name">{{ item.author }}</span>
+      </span>
+      <h4>
+        <a href="{{ item.url }}">
+          <span itemprop="name">{{ item.title }}</span>
+        </a>
+      </h4>
+      <p itemprop="articleSection">{{ item.subtitle }}</p>
+      <div class="btn small">
+        <a href="{{ item.url }}" title="View Post" itemprop="url">Read More</a>
+      </div>
+     </div>
+  </summary>
+{% endfor %}

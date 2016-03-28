@@ -1,0 +1,18 @@
+.team {
+	@include clearfix;
+	@include breakpoint($tablet, $no-query: '.no-mq') { margin-top: 5em; }
+	.team-member {
+		width: 100%;
+		float: none;
+		padding: 1em;
+		@include breakpoint($tablet, $no-query: '.no-mq') {
+			float: left;
+			width: 33.3%;
+		}
+		.member-name { margin: .5em 0; }
+		.job-title {
+			margin: .5em 0;
+			font-weight: bold;
+		}
+	}
+}

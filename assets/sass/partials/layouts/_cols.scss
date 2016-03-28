@@ -1,0 +1,19 @@
+.col {
+	display: inline-block;
+	vertical-align: top;
+	padding: 1em 0;
+  text-align: left;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    padding: 1em;
+  }
+}
+
+.col-3 {
+   margin: 0 auto;
+   text-align: center;
+	.col {
+		@include breakpoint($tablet, $no-query: '.no-mq') {
+      width: 32%;
+    }
+	}
+}

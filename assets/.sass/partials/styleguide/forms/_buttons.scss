@@ -1,0 +1,5 @@
+input[type="submit"] {
+  @include btn(#999, #fff, #6286BD, 3px, $normal);
+  @include grad(#52BAD5, #5276A0, $stop: 100%); 
+  font-family: $heading-font-family;
+}

@@ -1,0 +1,88 @@
+/**
+ * General Text Formatting
+ */
+html{
+
+}
+
+body {
+  font-size: $base-font-size-small;
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  line-height: $base-font-line-height;
+  -webkit-font-smoothing: subpixel-antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: $gray-10;
+  @include breakpoint($tablet) {
+    font-size: $base-font-size; /* increases fon-size on larger displays */
+  }
+}
+
+/**
+ * Blockquote
+ */
+blockquote{
+  margin: 2em 0em;
+  padding: 1em 2em;
+  border-top: 1px solid $gray_90;
+  border-bottom: 8px solid $gray_90;
+  font-style: italic;
+  @include breakpoint($tablet, $no-query:'.no-mq') {
+    max-width: 70%;
+    margin: 2em auto;
+  }
+}
+/**
+ * Preformatted Text
+ */
+pre {
+  background-color: #eee;
+  padding: 10px 20px;
+  border-radius: 6px;
+  display: block;
+}
+
+/**
+ * Headings
+ */
+
+#{headings()} {
+
+}
+
+h1, h2, h3, h4 , h5, h6 { margin: 1em 0;}
+h1 {
+  font-size: $h1-size;
+  font-family: $alt-font-family;
+  font-weight: $alt-font-weight;
+}
+
+h2 {
+  font-size: $h2-size;
+}
+
+h3 {
+  font-size: $h3-size;
+}
+
+h4 {
+  font-size: $h4-size;
+}
+
+h5 {
+  font-size: $h5-size;
+}
+
+h6 {
+  font-size: $h6-size;
+}
+
+.page-title {
+  line-height: 1.4;
+  margin-bottom: 0;
+}
+
+li > p {
+  margin: 0;
+}

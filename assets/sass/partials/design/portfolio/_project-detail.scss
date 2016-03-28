@@ -1,0 +1,92 @@
+.project-images {
+  margin: 0 -2em;
+  line-height: 0;
+  p {
+      line-height: 2.1;
+      overflow: visible;
+  }
+}
+
+
+.project-flip {
+  background: $gray-10;
+  margin: 0 -2em;
+  @include clearfix;
+  .btn {
+    float: left;
+    width: 50%;
+    color: #fff;
+    font-weight:700;
+    text-decoration: none;
+    line-height: 1;
+    &.btn-right {
+      text-align: right;
+      border-left: 1px solid $white;
+      float: right;
+    }
+    &.btn-left {
+      border-right: 1px solid $white;
+    }
+
+  }
+  span {
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 1.5em;
+    @include breakpoint($phone) {
+      display: none;
+    }
+  }
+  i {
+    background: $gray-30;
+    padding: 1.5em;
+    @include breakpoint($phone) {
+      padding: 1em;
+      text-align: center;
+
+    }
+  }
+}
+
+.portfolio-detail-banner {
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  h1 {
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+  }
+  .btn {
+    margin-top: 1em;
+    position: relative;
+    z-index: 999;
+
+  }
+  p.portfolio-date {
+    text-transform: none;
+    font-weight: normal;
+    margin: 0;
+  }
+}
+.project-images {
+  h6 {
+    background: #efefef;
+    padding: 1.5em 2em;
+    display: inline-block;
+    &:last-child {
+      margin-bottom: 4em;
+    }
+  }
+}
+
+//Header Banners 
+.header--banner.portfolio-detail-banner {
+  background: url('../images/bg/header-portfolio.svg') no-repeat;
+  background-size: cover;
+  min-height: 320px;
+}
+.no-svg .header--banner.portfolio-detail-banner {
+  background: url('../images/bg/header-portfolio.png') no-repeat;
+}
+

@@ -1,0 +1,77 @@
+# Site settings
+title: Variant Studios
+email: team@variantstudios.com
+description:
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "https://www.variantstudios.com" # the base hostname & protocol for your site
+timezone: America/Denver
+
+# Site Author(s)
+author:
+  name: Variant Studios
+  email: team@variantstudios.com
+
+# Build settings
+highlighter: pygments
+markdown: kramdown
+kramdown:
+  auto_ids: true
+  toc_levels: 1..6
+
+# Permalinks
+
+# Include Sub Pages
+include: ['_pages']
+
+# Blog Settings
+paginate: 10
+paginate_path: "/journal/page:num/"
+
+# Collections
+collections:
+  team:
+    output: false
+  portfolio:
+    output: true
+    permalink: /portfolio/:title/
+  journal:
+    output: true
+    permalink: /journal/:title/
+  service:
+    output: true
+    permalink: /solutions/:title/
+defaults:
+  - scope:
+      type: "portfolio"
+    values:
+      layout: "project"
+  - scope:
+      type: "journal"
+    values:
+      layout: "post"
+  - scope:
+      type: "service"
+    values:
+      layout: "services"
+
+# Reading Time Feature
+reading_time:     true
+words_per_minute: 200
+
+# Disqus Comments
+disqus_short_name: variantstudios
+disqus_show_comment_count: 10
+
+# typekit
+typekit: apf5bmq
+
+# Social Media
+facebook: "https://www.facebook.com/variantstudios"
+twitter: "https://twitter.com/variantstudios"
+googleplus: "https://plus.google.com/+Variantstudios"
+instagram: "http://instagram.com/variantstudios"
+
+# Google Analytics UA-1299264-18
+google_analytics_tracking_id:
+
+exclude: ["vendor","node_modules","package.json","Gemfile","gulpfile.js","*.scss"]

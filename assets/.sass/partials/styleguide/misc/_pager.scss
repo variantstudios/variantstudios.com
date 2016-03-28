@@ -1,0 +1,36 @@
+ul.pager {
+  margin: 1em 0 0;
+  padding: 1em 0 0;
+  border-top: 1px solid darken($color-two, 5%);
+  li {
+    display: inline-block;
+    list-style: none;
+    padding-right: .5em;
+    color: $link;
+    a:visited {
+      color: $link;
+    }
+  }
+}
+.pagination {
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid $color-four;
+  a {
+    margin: 1em .5em 0;
+    letter-spacing: 0;
+    transition: .2s;
+    display: inline-block;
+    text-decoration: none;
+    &:hover, &:active { letter-spacing: 1px; }
+  }
+  span {
+    margin: 1em .5em 0;
+    color: $color-four;
+  }
+  .newer, .older { width: 80px; }
+  .newer { float: left; }
+  .older { float: right; }
+}
+
+.no-border { border: none !important; }

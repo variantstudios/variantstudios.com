@@ -1,0 +1,39 @@
+html {
+  font: $font-weight #{$mobile-font-size + "%"}/#{$line-height} $font-family;
+  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    font: $font-weight #{$font-size + "%"}/#{$line-height} $font-family;
+  }
+}
+
+body {
+  color: $body-copy-color;
+}
+
+p {
+  margin: auto auto $indent-val;
+  margin-bottom: 5px;
+  line-height: 2;
+  // Conditonal Check For Paragraph Styling
+  @if $paragraph-vertical-whitespace == false {
+    & + p {
+      //siblings indentation
+      margin-top: -0.5em;
+    }
+  }
+}
+
+blockquote {
+  font-size: 95%;
+  font-style: italic;
+  line-height: 1.8;
+}
+.quote {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin: 0;
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+        margin: 0 10px 0 0;
+    }
+}

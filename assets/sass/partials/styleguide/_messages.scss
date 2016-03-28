@@ -1,0 +1,19 @@
+.messages {
+  background: #ccc;
+  @include border-radius(4px);
+  padding: 1em;
+  &.status {
+    border-left: 8px solid $valid;
+  }
+  &.error {
+    border-left: 8px solid $error;
+  }
+  &.warning {
+    border-left: 8px solid $warning;
+  }
+  h2 {
+    margin: 0 0 0.2em;
+    font-size: 125%;
+  }
+}
+

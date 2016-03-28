@@ -1,0 +1,14 @@
+.logo-section {
+    @include breakpoint($tablet, $no-query: ".no-mq") { padding: .5em; }
+    .site-logo {
+        width: 100px;
+        height: auto;
+        float: left;
+        margin: 1em 1em;
+        display: block;
+        @include breakpoint($tablet, $no-query: ".no-mq") {
+            width: auto;
+            margin: 1em auto 0;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+/**
+ * Link
+ */
+a {
+  @include animate-link(all, 0.25s, linear);
+  &:link {
+    color: $link;
+  }
+  &:visited {
+    color: $visited;
+  }
+  &:hover, &:focus {
+    color: $hover;
+  }
+  &:active, &.active {
+     color: darken($link, 10%);
+  }
+}
+/**
+ * Links
+ */
+li a{
+  &.active{
+      color: darken($link, 10%);
+  }
+}
+/**
+ * Mark, new
+ */
+.marker{
+  a{
+
+  }
+}
+/**
+ * Mark, updated
+ */
+/**
+ * More help link
+ */
+.more-help-link{
+  a{
+     color: $link;
+     padding: .5em .5em .5em 1.5em;
+     text-decoration: none;
+     border-bottom: 1px solid;
+
+  }
+}
+ /**
+ * More link
+ */
+.more-link{
+  a{
+
+  }
+}
+
+a#edit-cancel {
+  display: inline-block;
+  color: darken($error, 50%);
+  padding: 0.2em 1.5em;
+}

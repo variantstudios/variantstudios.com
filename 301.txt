@@ -1,0 +1,11 @@
+# /old_file.html /new_file.html
+
+/portfolio/jpwconsulting /portfolio/
+/portfolio/jacobclydedesigns /portfolio/
+/portfolio/sdgmag /portfolio/
+/portfolio/performancebiz /portfolio/
+/portfolio/six-star-cars /portfolio/
+/portfolio/the-greeley-dream-team /portfolio/
+/portfolio/hospice-of-northern-colorado /portfolio/
+/portfolio/patricks-pub /portfolio/
+/portfolio/the-budweiser-event-center /portfolio/

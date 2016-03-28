@@ -1,0 +1,26 @@
+.soc {
+    @include clearfix;
+    margin: 1em 0;
+    width: 250px;
+}
+img.soc-logo {
+    float: left;
+    width: 45px;
+    margin-right: 1em;
+}
+.soc-text {
+    font-size: 1.1em;
+    overflow: hidden;
+    margin: 0;
+    padding-top: 8px;
+}
+.right-soc {
+    padding: .5em .5em .5em 0;
+    float: none;
+    width: 100%;
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+        padding: 6em .5em 0;
+        float: right;
+        width: 30%;
+    }
+}

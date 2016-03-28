@@ -1,0 +1,12 @@
+- name: Brent Robbins
+  job_title: 'Owner, Web Designer and Developer'
+  image: /assets/images/profiles/brent.jpg
+  bio: 'Brent is the project manager and site architect for most VS website projects. He is a Colorado native who enjoys playing hockey and racing autocross. He also loves spending time outside with wife Meghan and his baby girls, Aubrie and Averie.'
+- name: Michael McQueen
+  job_title: Designer and Front End
+  image: /assets/images/profiles/michael.jpg
+  bio: Michael handles most things visual at VS. He spends his days managing the design of sites as well as some front-end web development. Outside of work he enjoys hiking with his dog.
+- name: Meghan Robbins
+  job_title: Office Manager
+  image: /assets/images/profiles/meghan.jpg
+  bio: 'Meghan is our office manager and much more. She works on the accounting, content editing and general site tasks. Meghan loves spending time with her family, reading and watching horrible reality TV.'

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<header class="header--banner portfolio-detail-banner">     
+    <p class="portfolio-date">{{ page.live_date }}</p>
+    <h1>{{ page.title }}</h1>
+    <div class="desc"><p>{{ page.description }}</p></div>
+</header>
+<div class="project-images">
+  {% for item in page.gallery_images %}
+   <img src="{{ item.image }}" title="{{ item.title }}" alt="{{ item.title }}" itemprop="image" />
+   <h6>{{ item.title }}</h6>
+{% endfor %}
+</div>
+{% include portfolio-testimonial.html %}

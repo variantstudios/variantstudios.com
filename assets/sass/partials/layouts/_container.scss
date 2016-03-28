@@ -1,0 +1,44 @@
+////////////////////////
+// Example Layout
+//
+// Here is a skeleton layout that uses the variables from ../base/variables.scss
+// to create a layout. To have this functioning out of the box. Duplicate it,
+// And add it to your layout.scss, using @import. This is a good starting point,
+// but is by no means a final.
+//
+// This layout requires Singularity.gs as a compass gem.
+////////////////////////
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+body {
+  @include mp-reset;
+}
+
+
+%container{
+  margin:0 auto; 
+  padding: 0;
+  @include add-grid(12);
+  @include clearfix;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    width: $tablet;
+    margin:2em auto; 
+    padding: 0;
+  }
+  @include breakpoint($desktop, $no-query: '.no-mq') {
+    width: $desktop;
+  }
+  @include breakpoint($lg-desktop, $no-query: '.no-mq') {
+    width: $lg-desktop;
+  }
+}
+.container-wrap{
+  @extend %container;
+}
+
+.wrapper--content  {
+  padding: 0 2em;
+}

@@ -1,0 +1,86 @@
+article.instagram {
+  margin-top: 2em;
+}
+ ul#instafeed {
+ 	list-style:none;
+ 	margin:0 auto;
+ 	padding:0;
+ 	li {
+ 		list-style:none;
+ 		margin:0 auto;
+ 		padding:0;
+ 		float:left; 
+ 		width:50%;
+ 		height:auto;
+ 		position:relative;
+    line-height: 0;
+ 		@include breakpoint($tablet, $no-query: '.no-mq') {
+      width: 25%;
+ 		}
+    img {
+      width: 100%;
+    }
+ 	}
+  li:last-child {
+    @include breakpoint($phone) {
+      display: none;
+    }
+  }
+}
+
+.follow-insta {
+  float: right;
+  width: 100%;
+  height: auto;
+  background: #ccc;
+  @include gradient(#517FA4,#306088);
+  overflow: hidden;
+  text-align: center;
+  padding: 2.5em 1em ;
+  margin-bottom: 2em;
+  @include breakpoint($tablet) {
+    width: 50%;
+    padding: 1.5em 1em 0;
+  }
+  @include breakpoint($desktop, $no-query: '.no-mq') {
+    padding: 3.5em 1em 0;
+  }
+  @include breakpoint($lg-desktop, $no-query: '.no-mq') {
+    padding: 4.5em 1em 0;
+  }
+  &:hover {
+    @include gradient(#306088,#517FA4);
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+  i {
+    font-size: 200%;
+  }
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+      width: 25%;
+      height: 176px;
+      h5 {
+        padding: 0em 1rem 0;
+        font-size: 120%;
+        line-height: 1.4;
+      }
+    }
+    @include breakpoint($desktop, $no-query: '.no-mq') {
+      height: 229px;
+      h5 {
+        font-size: 160%;
+      }
+    }
+    @include breakpoint($lg-desktop) {
+      height: 284px;
+      h5 {
+        padding: .5em 2rem 0;
+      }
+    }
+    h5 {
+      margin: 0;
+    }
+}

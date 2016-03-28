@@ -1,0 +1,116 @@
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+form {
+  margin: 4em auto;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    max-width: 75%;
+  }
+}
+.webform-component {
+  display: block;
+  position: relative;
+  margin: 3em 0 0;
+}
+
+.webform-component input, .webform-component textarea {
+  transition: .1s all linear;
+}
+
+
+.webform-component-select {
+  margin: 2em 0;
+  label {
+    color: #aaa;
+    display: inline-block;
+    padding-right: 1em;
+  }
+}
+.webform-component label{
+  position: absolute;
+  top: 13px;
+  left: 15px;
+  color: #aaa;
+  transition: .1s all linear;
+  cursor: text;
+  font-size: 85%;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+   font-size: 100%;
+  }
+}
+.webform-component.active label {
+  top: -2.25em;
+  left: 0;
+  font-size: 85%;
+}
+
+.validation {
+  float: right;
+  width: 100%;
+  i {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    @include breakpoint($phone) {
+      right: 0;
+      margin: 0;
+    }
+  }
+  span {
+    display: none;
+  }
+}
+
+
+.active .validation span {
+  display: block;
+}
+
+.optional {
+  font-size: 80%;
+  font-weight: 700;
+  margin-left: .25em;
+  color: #E0E0E0;
+}
+
+.contact {
+  iframe {
+    margin-bottom: 2em;
+  }
+}
+
+#contact_form {
+  .sent-yes {
+    text-align: center;
+    @include border-radius(4px);
+    padding: 1em;
+    background: lighten($valid, 40%);
+    border: 1px solid $valid;
+    margin: 3em 1em;
+    h3 {
+    margin: 0.5em 0 0.2em;
+    font-size: 125%;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+  .sent-no {
+    text-align: center;
+    background-color: #FFBEBE;
+    border: 1px solid #FF8686;
+    padding: 1em;
+    color: #FF0A0A;
+    @include border-radius(4px);
+    margin: 3em 1em;
+  }
+}
+
+.unsubscribe {
+  font-size: 85%;
+  font-style: italic;
+  color: #777;
+}

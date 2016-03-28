@@ -1,0 +1,116 @@
+header.page-header {
+  background: #000;
+  padding: 1em;
+  position: relative;
+  z-index: 9998;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    padding: 1em 2em;
+  }
+}
+
+//Header Banners 
+.header--banner {
+  background: #777; 
+  margin: 0 -2em 1em;
+  padding: 0em 2em;
+  color: #FFF;
+  position: relative;
+  overflow: hidden;
+  min-height: 350px;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    padding: 0em 3em;
+  }
+  &.light {
+    color: $white;
+  }
+  &.dark {
+    color: $gray-10;
+  }
+  &.small {
+    padding-bottom: 2em;
+  }
+  h1 {
+    margin: 0 0 .15em;
+    font-size: 180%;
+    line-height: 1.2;
+    padding-top: 1em;
+    text-shadow: 3px 2px 10px rgba(0,0,0,.4);
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+      font-size: 220%;
+    }
+    @include breakpoint($desktop, $no-query: '.no-mq') {
+      width: 66%;
+    }
+  }
+  p {
+    margin-top: 0;
+    font-weight: normal;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.4);
+    @include breakpoint($desktop, $no-query: '.no-mq') {
+      width: 66%;
+    }
+  }
+}
+
+.portfolio-detail-banner {
+  position: relative;
+  overflow: hidden;
+  @include gradient(#3B312F, #315450);
+}
+
+//Header Banners 
+.portfolio--header {
+  background: url('../images/bg/header-portfolio.svg') no-repeat;
+  background-size: cover;
+  min-height: 320px;
+}
+.no-svg .portfolio--header {
+  background: url('../images/bg/header-portfolio.png') no-repeat;
+}
+
+.services--header {
+  background: url('../images/bg/header-services.svg') no-repeat;
+  background-size: cover;
+}
+.no-svg .portfolio--header {
+  background: url('../images/bg/header-services.png') no-repeat;
+}
+
+.terms--header {
+  //background: url('../images/bg/02.jpg') no-repeat center center; 
+  background-size: cover;
+  height: 100px;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+      height: 120px;
+    }
+}
+.services--header-fn {
+    //background: url('../images/bg/02.jpg') no-repeat center center; 
+    background-size: cover;
+}
+.studio--header {
+  background: url('../images/bg/header-about.svg') no-repeat center center; 
+  background-size: cover;
+}
+.no-svg .studio--header {
+  background: url('../images/bg/header-about.png') no-repeat;
+}
+.contact--banner {
+  background: url('../images/bg/header-contact.svg') no-repeat center center; 
+  background-size: cover;
+}
+.no-svg .contact--banner {
+  background: url('../images/bg/header-contact.png') no-repeat center center; 
+}
+
+.journal--header {
+  background: url('../images/bg/header-blog.svg') no-repeat center center; 
+  background-size: cover;
+}
+.no-svg .journal--header {
+  background: url('../images/bg/header-blog.png') no-repeat center center; 
+}
+.journal--detail {
+  min-height: 0 !important;
+}

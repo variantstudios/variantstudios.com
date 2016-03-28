@@ -1,0 +1,17 @@
+---
+layout: null
+sitemap:
+  exclude: 'yes'
+---
+{"quotes":
+ [
+	{% for item in site.data.testimonials %} {
+        "quote":   "{{ item.copy | | truncate: 280, '...' }}",
+        "author":     "{{ item.name }}",
+        "image":     "{{ item.image }}",
+        "tag":     "{{ item.tag }}",
+        "position":   "{{ item.position }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+ ]
+}

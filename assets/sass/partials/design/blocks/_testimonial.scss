@@ -1,0 +1,113 @@
+section.testimonial-full {
+  position: relative;
+  padding:1em 0em;
+  margin: 1em 0;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    max-width: 75%;
+    margin: 4em auto;
+    padding: 2em 3em 2em 4em;
+  }
+  h4 {
+    font-style: normal;
+    font-size: 200%;
+    margin: 0 0 .5em;
+
+  }
+  .quote {
+    position: absolute;
+    color: #DDD;
+    left: 0em;
+    line-height: 0;
+    z-index: -9;
+    top: 6.5rem;
+    background: url("../images/bg/quote.png") no-repeat;
+    width: 33px;
+    height: 22px;
+    text-indent: 100%;
+    overflow: hidden;
+    left: 0.5em;
+    opacity: .75;
+    display: none;
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+      left: 1em;
+      top: 7rem;
+      display: block;
+    }
+  }
+  p {
+    overflow: hidden;
+    margin-top: 0;
+  }
+  img {
+    width: 55px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: .5em;
+    float: left;
+  }
+  .testimonial-name {
+    overflow: hidden;
+    margin-top: 8px;
+  }
+  span {
+    display: block;
+    &.position {
+      font-weight: normal;
+    }
+  }
+
+}
+.testimonial-credit {
+  display: block;
+  font-style: normal;
+  margin: 1em 0 0;
+  font-weight: 700;
+}
+.testimonial {
+  padding-left: 0em;
+  padding-right: 2em;
+  h5 {
+    margin: 0;
+  }
+  p {
+    max-width: none;
+    margin: 1em 0 .5em;
+    padding: 0;
+    border: none;
+    border-top: 1px solid #EFEFEF;
+    padding-top: 1em;
+   position: relative;
+    @include breakpoint($desktop, $no-query: '.no-mq') {
+     padding-left: 3em;
+    }
+    &:before {
+      @include breakpoint($desktop, $no-query: '.no-mq') {
+        content: '';
+        position: absolute;
+        color: #DDD;
+        line-height: 0;
+        z-index: -9;
+        background: url("../images/bg/quote.png") no-repeat;
+        width: 33px;
+        height: 22px;
+        text-indent: 100%;
+        overflow: hidden;
+        left: 0.5em;
+        opacity: .75;
+        left: 0em;
+        top: 1.5rem;
+      }
+    }
+  }
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 1em;
+  }
+  span {
+    font-weight: 700;
+  }
+}

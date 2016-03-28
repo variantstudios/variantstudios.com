@@ -1,0 +1,19 @@
+nav {
+  @include breakpoint($phone) { padding: 0em 1em 0; }
+  ul { @include mp-reset; }
+  li {
+    @include breakpoint($phone) {
+      width: 49%;
+      display: inline-block;
+      a, a:link {
+        text-decoration: none;
+        display: inline-block;
+        color: #ddd;
+        font-size: 90%;
+        vertical-align: top;
+        padding: .5em 0;
+        &:hover { color: #fff; }
+      }
+    }
+  }
+}

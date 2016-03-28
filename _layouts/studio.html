@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<header class="{{ page.header_class }} header--banner" id="header--banner">
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.subtitle }}</p>
+</header>
+<section class="static-detail clearfix">
+	<h3>Our Story</h3>
+	<div class="detail">{{ content }}</div>
+</section>
+<section class="our-team clearfix">
+  <div class="static-detail clearfix">
+  	<h3>Our Team</h3> 
+  </div>
+	<div class="col-3 team clearfix">
+    {% for member in site.data.team %}
+      <div class="team-member col">
+              <img class="headshot" src="{{ member.image }}" alt="{{ member.name }}">
+        <h2 class="member-name">{{ member.name }}</h2>
+        <h6 class="job-title">{{ member.job_title }}</h6>
+        <p class="bio">{{ member.bio }}</p>
+          </div>
+    {% endfor %}
+  </div>
+</section>
+<article class="instagram clearfix">
+    <ul id="instafeed"></ul>
+    <div class="follow-insta">
+      <a href="http://instagram.com/variantstudios" title="Variant Studios Instagram Feed" target="_blank">
+      <i class="fa fa-instagram"></i>
+        <h5>Follow us on Instagram</h5>
+      </a>
+  </div>
+</article>  

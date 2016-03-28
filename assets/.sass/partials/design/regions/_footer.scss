@@ -1,0 +1,21 @@
+footer {
+  color: #fff;
+  font-size: 80%;
+  padding: 3em 1em 2em;
+  border-top: 1px solid #FFF;
+  margin-top: 3em !important;
+  @include clearfix;
+  a:link, a:visited, span {
+    color: #fff;
+  }
+  .left {
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+      float: left;
+    }
+  }
+  .right {
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+      float: right;
+    }
+  }
+}

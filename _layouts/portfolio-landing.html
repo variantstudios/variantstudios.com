@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<header class="{{ page.header_class }} header--banner" id="header--banner">
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.subtitle }}</p>
+</header>
+
+  <section class="projects clearfix">
+  {% assign projects = site.portfolio | sort: "weight" %}
+  {% for item in projects limit:18 %}
+    <article class="project-item">
+        <a href="{{ item.url }}" title="View {{ item.title }} Project">
+          <img src="{{ item.thumbnail }}" alt="{{ item.title }}">
+        </a>
+        <h3>
+          <a href="{{ item.url }}" title="View Project">{{ item.title }}</a>
+        </h3>
+        <p class="location">{{ item.location }}</p>
+        <div class="btn small">
+          <a href="{{ item.url }}" title="View Project">View Project</a>
+        </div>
+    </article>
+
+  {% endfor %}
+  <article class="project-graphic-design">
+        <a href="branding" title="View Branding Work">
+          <img src="/assets/images/projects/graphicdesign/thumb.jpg" alt="View Branding Work">
+        </a>
+        <h3>
+          <a href="branding" title="View Project">Branding Work</a>
+        </h3>
+        <div class="btn small">
+          <a href="branding" title="View Project">View Project</a>
+        </div>
+    </article>
+</section>

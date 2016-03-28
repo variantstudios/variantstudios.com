@@ -1,0 +1,70 @@
+@mixin list-inline {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0 1em;
+}
+
+@mixin hide-text {
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color;
+    -moz-box-shadow:inset $top $left $blur $color;
+    box-shadow:inset $top $left $blur $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+  }
+}
+
+@mixin grad($from, $to, $stop: 100%) {
+  background-image: -moz-linear-gradient(left, $from 0%, $to $stop);
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0%, $from), color-stop($stop, $to));
+  background-image: -webkit-linear-gradient(top, $from 0%, $to $stop);
+  background: -ms-linear-gradient(top, $from 0%, $to $stop);
+  background: linear-gradient(to bottom, $from 0%, $to $stop);
+}
+
+
+@mixin btn($bg, $color, $border, $radius, $size) {
+  background-color: $bg;
+  border: 1px solid $border;
+  border-radius: $radius;
+  color: $color;
+  cursor: pointer;
+  padding: .75em 1.5em;
+  font-size: $size;
+  &:hover {
+    background-color: darken($bg, 5%);
+    border: 1px solid darken($border, 5%);
+  }
+}
+
+@mixin background-size($size) {
+    -webkit-background-size: $size;
+    -moz-background-size: $size;
+    -o-background-size: $size;
+    background-size: $size;
+}
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+@mixin transform($args...) {
+  -webkit-transform: $args;
+  -moz-transform: $args;
+  -ms-transform: $args;
+  -o-transform: $args;
+  transform: $args;
+}

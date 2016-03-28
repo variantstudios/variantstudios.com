@@ -1,0 +1,24 @@
+// This is for news or blog view
+.latest-events .event-item, .latest-news {
+    padding: 1em 0;
+    .post-detail { overflow: hidden; }
+    h5 {
+        margin-top: .5em;
+        margin-bottom: 0;
+    }
+}
+// For both events and posts
+.post-img {
+  float: left;
+  width: 38%;
+  height: auto;
+  @include border-radius(3px);
+  margin-right: 1em;
+}
+// View List
+article.post {
+  padding: 1em 0 2em;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1em;
+  h3 { margin-top: 0.35em; }
+}

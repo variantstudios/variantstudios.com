@@ -1,0 +1,8 @@
+---
+sitemap:
+  exclude: 'yes'
+---
+User-agent: *
+
+# Pages
+Disallow: /terms-conditions/

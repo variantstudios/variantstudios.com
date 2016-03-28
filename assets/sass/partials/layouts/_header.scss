@@ -1,0 +1,14 @@
+header {
+  @include clearfix;
+}
+.site-name {
+  @include breakpoint($medium, $no-query: '.no-mq') {
+   // @include grid-span(2, 1);
+  }
+}
+
+.main-nav {
+  @include breakpoint($medium, $no-query: '.no-mq') {
+    @include grid-span(8, 5);
+  }
+}

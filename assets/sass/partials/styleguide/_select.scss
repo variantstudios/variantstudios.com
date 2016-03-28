@@ -1,0 +1,32 @@
+select {
+    /*margin: 0 1em;*/
+}
+.select-list {
+    border: 1px solid #ccc;
+    width: 220px;
+    overflow: hidden;
+    background: #fff url("data:image/png;base64,R0lGODlhDwAUAIABAAAAAP///yH5BAEAAAEALAAAAAAPABQAAAIXjI+py+0Po5wH2HsXzmw//lHiSJZmUAAAOw==") no-repeat 95% 50%;
+}
+
+.select-list select {
+    padding: 5px 14px 3px;
+    width: 120%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    font-size: 15px;
+}
+
+.select-list select:focus {
+    outline: none;
+}
+
+.webform-datepicker {
+  .select-list {
+    width: 130px;
+    background: #fff url("data:image/png;base64,R0lGODlhDwAUAIABAAAAAP///yH5BAEAAAEALAAAAAAPABQAAAIXjI+py+0Po5wH2HsXzmw//lHiSJZmUAAAOw==") no-repeat 90% 50%;
+    margin-right: 10px;
+  }
+}

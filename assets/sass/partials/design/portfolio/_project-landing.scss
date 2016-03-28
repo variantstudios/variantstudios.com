@@ -1,0 +1,70 @@
+.projects {
+  text-align: center;
+  .project-item {
+    padding: 1em 0;
+    text-align: left;
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+      display: inline-block;
+      width: 49%;
+      padding: 1em;
+      vertical-align: top;
+    }
+    @include breakpoint($desktop, $no-query: '.no-mq') {
+      display: inline-block;
+      width: 32%;
+    }
+    h3 {
+      margin: 0.5em 0 0em 0;
+      line-height: 1.3;
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+    img {
+      width: 100%;
+      opacity: 1;
+      &:hover {
+        opacity: .75;
+      }
+    }
+    .portfolio-date {
+      margin: 1em 0 0;
+      color: #C0C0C0;
+    }
+    .location {
+      margin: 1em 0 0;
+      color: #666666;
+      margin: 0 0 1.2em 0;
+      line-height: 1.5;
+    }
+    .btn a {
+      margin-top: 0;
+    }
+  }
+  .project-graphic-design {
+    padding: 1em 0 2em;
+    text-align: left;
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+      padding: 1em 1em 2em;
+    }
+    h3 {
+      margin: 0.5em 0 .5em 0;
+      line-height: 1.3;
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+    img {
+      width: 100%;
+      opacity: 1;
+      &:hover {
+        opacity: .75;
+      }
+    }
+    .btn a {
+      margin-top: 0;
+    }
+  }
+}

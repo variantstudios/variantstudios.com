@@ -1,0 +1,10 @@
+.breadcrumb {
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 90%;
+  a {
+    text-decoration: none;
+    color: $heading-color;
+    padding: 0;
+  }
+}

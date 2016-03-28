@@ -1,0 +1,164 @@
+input[type="text"], input[type="email"], textarea, input[type="password"], input[type="file"], input[type="number"], input[type="search"],  #edit-item  {
+  background-color: #fff;
+  border: 1px solid #dcd9d7;
+  height: auto;
+  padding: 1em;
+  width: 90%;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-family: $base-font-family;
+  color: #777;
+  &:active, &:focus {
+    //border-bottom: 1px solid $focus;
+  }
+  &:active, &:hover, &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+}
+form input {
+  margin: 0;
+}
+
+input[type="password"], input[type="file"] {
+  width: auto;
+  display: block;
+}
+
+textarea {
+  max-width: 100%;
+  outline: none;
+}
+
+form {
+  i {
+    margin: 0 1em;
+  }
+}
+.form-item {
+  margin: 0em 0 2em;
+}
+
+.form-item > label {
+  font-family: $alt-font-family;
+  font-weight: $alt-font-weight;
+  font-size: 125%;
+}
+
+div.description {
+  font-style: italic;
+  margin: 1em 0;
+}
+
+form i {
+  color: lightgray;
+}
+form label {
+  display: block;
+  margin: 0 0 5px 0;
+}
+form input {
+  margin: 0 0 10px 0;
+}
+/*form input.sendButton {
+  display: block;
+}*/
+/* Remove Webkits' Autofill yellow shit */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 5px white;
+    -webkit-text-fill-color: #333;
+}
+
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 5px white;
+    -webkit-text-fill-color: #333;
+} 
+/* Remove Webkits' horrible focus glow */
+input:focus, textarea:focus {
+  outline: none;
+}
+/* This is to hide the "honeypot" field */
+.hidden {
+  display: none;
+}
+
+/* Email messages shown after submitted (sucess and fail) */
+.email--message {
+  padding: 3px 20px;
+  margin: 10px 0;
+}
+/* Form Error */
+form .active input.error{
+  border-color: #e77776;
+}
+form .active textarea.error{
+  border-color: #e77776;
+  float: left;
+}
+form .validation span.success, form .validation span.error {
+  font-size: 85%;
+}
+form .active div span.error{
+  color: #e46c6e;
+  float: left;
+  font-size: 80%;
+  padding-top: 5px;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    position: absolute;
+    top: -2.8em;
+    right: 4em;
+  }
+  @include breakpoint($desktop, $no-query: '.no-mq') {
+    right: 6em;
+  }
+  @include breakpoint($lg-desktop, $no-query: '.no-mq') {
+    right: 7em;
+  }
+
+}
+form i.error {
+  color: lightgray;
+}
+
+form .active i.error {
+  color: #e46c6e;
+}
+
+/* Form Sucess */
+form input.sucess{
+  border-color: $valid;
+  background: #F7FFF5;
+}
+form textarea.sucess{
+  border-color: $valid;
+  background: #F7FFF5;
+}
+form div span.sucess{
+  color: $valid;
+}
+
+form i.sucess {
+  color: $valid;
+}
+// Validation 
+/*.form-item input.error, .form-item textarea.error {
+  border: 1px solid $error;
+}
+
+.form-item input.valid, .form-item textarea.valid {
+  border: 1px solid $valid;
+}
+
+span.error, label.error {
+  color: $error;
+  font-style: italic;
+  font-size: 80%;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+  width: auto;
+}*/

@@ -1,0 +1,38 @@
+---
+layout: default
+---
+{{ content }}
+
+<section class="home--latest-projects projects clearfix">
+      <div class="home--latest-projects-intro editable">
+        <h2>Featured Projects</h2>
+        <h3>A selection of our website design work</h3>
+         <div class="btn"><a href="/portfolio/" title="View Our Full Portfolio">View Our Full Portfolio</a></div>
+      </div>
+
+  {% assign projects = site.portfolio | sort: "weight" %}
+  {% for item in projects limit:3 %}
+    <article class="project-item">
+        <a href="{{ item.url }}" title="View {{ item.title }} Project">
+          <img src="{{ item.thumbnail }}" alt="{{ item.title }}">
+        </a>
+        <h3>
+          <a href="{{ item.url }}" title="View Project">{{ item.title }}</a>
+        </h3>
+        <p class="location">{{ item.location }}</p>
+        <div class="btn small">
+          <a href="{{ item.url }}" title="View Project">View Project</a>
+        </div>
+    </article>
+
+  {% endfor %}
+
+</section>
+<section class="postscript home-postscript editable">
+  <div class="front-services">
+       <h2>What We Do</h2>
+       <p>We provide focused <a href="/solutions/web-design-and-development/" title="Web Design and Development"></a>web design and development services to help your business succeed online. We utilize <a href="/solutions/drupal/" title="Drupal">Drupal</a> to make it easy for you to manage your website's content. Our web designs are <a href="/solutions/mobile-friendly-web-design/" title="Mobile Friendly">mobile friendly</a> to make sure your customers will be able to properly view your site online on any device.</p>
+       <div class="btn"><a href="/solutions/" title="Our Solutions">View Our Services</a></div>
+    </div>
+    <img src="/assets/images/services/services.png" alt="Web Design, Web Development, Drupal and Mobile Friendly">
+  </section>

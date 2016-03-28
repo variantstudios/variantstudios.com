@@ -1,0 +1,18 @@
+.sidebar {
+    @include breakpoint($tablet, $no-query: ".no-mq") { @include grid-span(3.5, 9.5); }
+    h2 {
+        border-bottom: 1px solid $color-four;
+        padding-bottom: .5em;
+        &.soc-text { border: none; }
+    }
+}
+.sidebar-first {
+    @include breakpoint($tablet, $no-query: ".no-mq") { @include grid-span(3.5, 9.5); }
+}
+
+.sidebar-block {
+    margin-bottom: 2em;
+    border-bottom: 1px solid $color-four;
+    h3 { margin: 0; }
+    &:last-child { border: none; }
+}

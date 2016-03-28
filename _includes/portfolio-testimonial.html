@@ -1,0 +1,16 @@
+{% for item in site.data.testimonials %}
+	{% if item.tag == page.title %}
+	  <section class="testimonial-full">
+	      <h4>Testimonial</h4>
+	      <span class="quote">"</span>
+	      <p>{{ item.copy }}</p>
+	      <div class="testimonial-credit">
+	        <img src="{{ item.image }}" alt="{{ item.name }}" /> 
+	        <div class="testimonial-name">
+		        <span>{{ item.name }}</span>
+		        <span class="position">{{ item.postion }}</span>
+		      </div>
+	      </div>
+	  </section>
+	{% endif %}
+{% endfor %}

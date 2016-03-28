@@ -1,0 +1,40 @@
+.news-item {
+    display: block;
+    @include clearfix;
+  	padding: 2em 0em;
+    border-bottom: 1px solid #eee;
+    @include breakpoint($desktop, $no-query: '.no-mq') {
+      padding: 4em 10em;
+      margin: 0 -2em;
+    }
+  .thumb {
+    margin-bottom: 1em;
+     @include breakpoint($desktop, $no-query: '.no-mq') {
+        margin: 0 -4em 2em;
+      }
+      img {
+        width: 100%;
+      }
+  }
+  .detail {
+  }
+  h4 {
+    margin-top: 0;
+    line-height: 1.4;
+    a {
+      text-decoration: none;
+      color: inherit;
+      font-size: 140%;
+       @include breakpoint($tablet, $no-query: '.no-mq') {
+        font-size: 170%;
+      }
+    }
+  }
+  .author-by, .post-date {
+    text-transform: uppercase;
+    margin-right: 1em;
+    @include breakpoint($phone) {
+      display: block;
+    }
+  }
+}

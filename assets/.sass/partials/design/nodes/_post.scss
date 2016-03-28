@@ -1,0 +1,22 @@
+// News or Blog Full Node
+.post-page {
+  @include clearfix;
+  background-color: $main-bg;
+  padding: 1em 1em;
+  margin-top: 9em !important;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+   @include border-radius(3px);
+   padding: 2em 2em;
+   margin-top: 20em !important;
+   box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.95);
+  }
+}
+.post-image {
+  width: 100%;
+  margin: 10px;
+  @include border-radius(3px);
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    float: right;
+    width: 30%;
+  }
+}

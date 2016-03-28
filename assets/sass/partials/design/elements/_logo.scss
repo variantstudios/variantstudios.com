@@ -1,0 +1,35 @@
+.site-name {
+  @include breakpoint($phone) {
+    margin-left: .75em;
+  }
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    float: left;
+  }
+  h1 {
+    margin: .5em 0 .5em;
+    font-size: 100%;
+    line-height: 1;
+  }
+  img {
+    width: 215px;
+    @include breakpoint($phone) {
+      max-width: none;
+    }
+  }
+}
+
+.no-mq {
+  .site-name {
+    a {
+      float: left;
+      margin: 2rem 0;
+      background: url('../images/logos/logo.png');
+      width: 200px;
+      height: 33px;
+      display: block;
+    }
+    img {
+       display: none;
+    }
+  }
+}

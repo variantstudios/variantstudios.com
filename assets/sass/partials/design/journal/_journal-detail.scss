@@ -1,0 +1,113 @@
+article.journal-content {
+	padding: 0em;
+  @include clearfix;
+  @include breakpoint($tablet) {
+    padding: 0 6em;
+   }
+  @include breakpoint($desktop, $no-query: '.no-mq') {
+    padding: 2em 13em 4em;
+    margin: 0 -2em;
+  }
+  .post-date {
+    font-size: 120%;
+    font-style: italic;
+    margin-top: .5em;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    padding: 1em;
+  }
+}
+header.journal--detail  {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 0;
+  line-height: 0;
+}
+.post-details-block {
+  margin: 3em 0 0;
+  padding-top: 3em;
+  border-top: 1px solid #efefef;
+  @include clearfix;
+  img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .author-name {
+    overflow: hidden;
+    margin: .6em 1em;
+    font-weight: bold;
+    display: inline-block;
+  }
+}
+
+.journal-inline {
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  &.right, &.left {
+      width: 100%;
+  }
+  &.full {
+    @include breakpoint($desktop, $no-query: '.no-mq') {
+      margin: 2em -4em;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  &.full-small {
+    padding: 1em 0;
+    @include breakpoint($tablet, $no-query: '.no-mq') {
+      padding: 2em 0;
+    }
+    @include breakpoint($desktop, $no-query: '.no-mq') {
+      padding: 3em 0;
+    }
+    img {
+      @include breakpoint($tablet, $no-query: '.no-mq') {
+        width: 100%;
+      }
+      @include breakpoint($lg-desktop) {
+        width: 80%;
+      }
+    }
+  }
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    img {
+      width: 100%;
+    }
+    &.right {
+      float: right;
+      margin: 0em -3em 1em 1em;
+      width: 50%;
+    }
+    &.left {
+      float: left;
+      width: 50%;
+      margin: 0em 1em 1em -3em;
+    }
+  }
+  @include breakpoint($desktop, $no-query: '.no-mq') {
+    &.right {
+      float: right;
+      margin: 0em -5em 1em 3em;
+    }
+    &.left {
+      float: left;
+      margin: 0em 3em 1em -5em;
+    }
+  }
+}
+.back-to-blog {
+  display: block;
+  padding: 1em 0 2em;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid #EFEFEF;
+  clear: both;
+}

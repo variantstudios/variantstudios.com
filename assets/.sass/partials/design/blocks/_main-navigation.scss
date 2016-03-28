@@ -1,0 +1,155 @@
+nav.top-nav {
+    font-family: $heading-font-family;
+    font-size: 110%;
+    font-weight: bold;
+    ul {
+        position: absolute;
+        top: 80px;
+        padding: 1em 2em;
+        width: 100%;
+        font-size: 90%;
+        background-color: rgba(white, .9);
+        opacity: 1;
+        visibility: visible;
+        @include box-shadow(2px, 4px, 5px, rgba(black,.5));
+        @include transition(opacity .25s ease-in-out);
+        @include breakpoint($tablet, $no-query: ".no-mq") {
+            margin: 0em auto;
+            text-align: center;
+            width: 100%;
+            box-shadow: none;
+            background: none;
+            position: relative;
+            left: auto;
+            top: auto;
+            font-size: 100%;
+        }
+        li {
+            text-align: left;
+            color: white;
+            ul {
+                position: relative;
+                top: 0;
+                padding: .5em 2em;
+                width: 100%;
+                font-size: 110%;
+                background-color: transparent;
+                opacity: 1;
+                visibility: visible;
+                @include box-shadow(0px, 0px, 0px, rgba(black,0));
+                li { margin: .25em 0; }
+            }
+        }
+        li {
+            @include breakpoint($tablet, $no-query: ".no-mq") {
+                color: $link;
+                border: none;
+                @include transition(background-color .25s ease-in-out);
+                ul {
+                    position: absolute;
+                    top: 150%;
+                    left: 0;
+                    visibility: hidden;
+                    opacity: 0;
+                    padding: 0;
+                    @include transition(background-color .25s ease-in-out);
+                }
+                &:hover {
+                    background-color: rgba(white, .9);
+                    ul {
+                        @include box-shadow(0px, 4px, 5px, rgba(black,.5));
+                        z-index: 99;
+                        background-color: rgba(white, .9);
+                        margin-top: -5px;
+                        top: 110%;
+                        left: 0;
+                        opacity: 1;
+                        width: 150px;
+                        visibility: visible;
+                        li {
+                            display: block;
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    li.leaf, li, li.expanded {
+        list-style: none;
+        padding: .5em .5em;
+        margin: 0;
+        position: relative;
+        border-bottom: 1px solid #D2D2D2;
+        @include breakpoint($tablet, $no-query: ".no-mq") {
+            padding: .5em .6em;
+            font-size: 90%;
+            border-bottom: 0;
+        }
+
+        @include breakpoint($desktop) {
+            padding: .5em .75em;
+            font-size: 100%;
+        }
+
+        li {
+            padding: 0;
+            font-size: 85%;
+            border-bottom: 0;
+        }
+        @include breakpoint($tablet, $no-query: ".no-mq") {
+            display: inline-block;
+        }
+    }
+    a, a:visited, a:link {
+        color: $link;
+        text-decoration: none;
+        &.active {
+            color: $link;
+            @include breakpoint($tablet, $no-query: ".no-mq") {
+                border-bottom: 2px solid $heading-color;
+            }
+        }
+    }
+}
+nav.top-nav {
+    ul.hide {
+        @include breakpoint($phone) {
+            @include transition(all .35s ease-in-out);
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+}
+.menu-btn {
+    margin: 2em 0em 0 2em;
+    position: absolute;
+    color: white;
+    border: 2px solid white;
+    padding: .25em 1.25em;
+    font-size: 90%;
+    background: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .25);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .25);
+    outline: none;
+    @include transition(all .25s ease-in-out);
+    font-weight: normal;
+    &:before {
+        content: "\f0c9";
+        font-family: FontAwesome;
+        padding-right: .5em;
+    }
+    @include breakpoint($tablet, $no-query: ".no-mq") { display: none; }
+}
+.menu-btn.close {
+    @include transition(all .25s ease-in-out);
+    background: #AE131A;
+    &:before { content: "\f00d"; }
+}
+#menu {
+    @include breakpoint($tablet, $no-query: ".no-mq") { visibility: visible; }
+}
+
+#mobile-menu {
+    @include breakpoint($tablet, $no-query: ".no-mq") { visibility: hidden; }
+}
