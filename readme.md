@@ -1,4 +1,4 @@
-# VS CloudCannon Demo
+# Variant Studios Website - Jekyll site powered by CloudCannon
 
 # Get your local environment setup on OSX
 
@@ -18,7 +18,7 @@ Create and move to the directory where you want to copy the site/repo:
 `$ mkdir ~/VS/variantstudios/local &&  cd /VS/variantstudios/local `
 
 Clone the repo into the local directory:
-`$ git clone https://github.com/variantstudios/frontrangefirerescue.co . `
+`$ git clone https://github.com/variantstudios/variantstudios.com . `
 
 ## Setup the site
 
