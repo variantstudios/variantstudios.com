@@ -72,6 +72,6 @@ googleplus: "https://plus.google.com/+Variantstudios"
 instagram: "http://instagram.com/variantstudios"
 
 # Google Analytics UA-1299264-18
-google_analytics_tracking_id:
+google_analytics_tracking_id: "UA-1299264-18"
 
 exclude: ["vendor","node_modules","package.json","Gemfile","gulpfile.js","*.scss"]
