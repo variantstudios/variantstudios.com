@@ -29,7 +29,7 @@ sitemap:
     </url>
     {% endunless %}
   {% endfor %}
-  {% unless page.sitemap.exclude == "yes" or page.url == "/biggie-smalls.json" %}
+  {% for unless page.sitemap.exclude == "yes" or page.url == "/biggie-smalls.json" %}
     {% unless page.sitemap.exclude == "yes" %}
     <url>
       <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
