@@ -2,7 +2,7 @@
 layout: post
 title: 'Welcome CloudCannon, a new Cloud based CMS'
 subtitle: CloudCannon brings another website Content Management System option into the fold.
-date: 2016-03-30T10:00:00.000Z
+date: 2016-03-30T08:00:00.000Z
 author:
 thumbnail: /assets/images/journal/welcome-cloudcannon/welcome-cloudcannon-cms_teaser.png
 header_path: /assets/images/journal/welcome-cloudcannon/welcome-cloudcannon-cms_header.png
