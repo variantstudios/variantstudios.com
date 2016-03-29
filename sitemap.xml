@@ -29,8 +29,8 @@ sitemap:
     </url>
     {% endunless %}
   {% endfor %}
-  {% for unless page.sitemap.exclude == "yes" or page.url == "/biggie-smalls.json" %}
-    {% unless page.sitemap.exclude == "yes" %}
+  {% for page in site.pages %}
+    {% unless page.sitemap.exclude == "yes" or page.url == "/biggie-smalls.json" %}
     <url>
       <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
       {% if page.sitemap.lastmod %}
