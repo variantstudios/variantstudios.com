@@ -2,7 +2,7 @@
 {% for item in items limit:1 %}
     <h3>Latest Journal Post</h3>
     <h4><a href="{{ item.url }}" title="read more">{{ item.title }}</a></h4>
-    <span class="post-date">02/11/15</span>
+    <span class="post-date">{{ item.date }}</span>
     <span class="author-by">by Brent Robbins</span>
     <p>{{ item.subtitle }}</p>
 {% endfor %}
