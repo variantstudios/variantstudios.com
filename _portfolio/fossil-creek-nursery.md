@@ -1,4 +1,7 @@
 ---
+meta-title: 'Fossil Creek Nursery, Fort Collins Colorado | Web Design Portfolio | VS'
+meta-description: 'Fossil Creek Nursery is a locally-owned landscape and garden center located in Fort Collins. They offer the best selection and finest quality plants in Northern Colorado.'
+
 title: Fossil Creek Nursery
 description: Fossil Creek Nursery is a locally-owned premier landscape and garden center located in Fort Collins, Colorado. With a commitment to deliver unparalleled value to their customers, the dedicated staff of long-term employees offer the best selection and finest quality plants in Northern Colorado.
 live_date: 2014-106-01T00:00:00.000Z

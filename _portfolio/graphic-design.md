@@ -1,5 +1,8 @@
 ---
 layout: project-branding
+meta-title: 'Fort Colorado Graphic Design Portfolio | VS'
+meta-description: 'A collection of our client graphic design, branding and logo work.'
+
 title: Branding
 description: A collection of our branding and logo design work.
 live_date: ''

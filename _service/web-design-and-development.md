@@ -1,4 +1,7 @@
 ---
+meta-title: 'Denver, Fort Collins Colorado Web Design, Web Development | VS'
+meta-description: 'We offer a broad range of web design and development solutions to help your Colorado business succeed online.'
+
 title: Web Design and Development
 intro: Variant Studios provides business with a broad range of web design and development services. We understand that one size does not fit all, and we are always committed to delivering products and services that are tailored specifically to each client.
 weight: 3

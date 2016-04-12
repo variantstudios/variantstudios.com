@@ -1,4 +1,7 @@
 ---
+meta-title: 'CloudCannon | Variant Studios'
+meta-description: 'CloudCannon Coming Soon.'
+
 title: CloudCannon
 intro: Coming soon.
 weight: 2

@@ -1,5 +1,8 @@
 ---
 layout: post
+meta-title: "Drupal Tutorial How to send text messages using the Twilio module"
+meta-description: "Learn how easy it is to send text (SMS) messages through your Drupal website using the Twilio module."
+
 title: Drupal Tutorial How to send text messages using the Twilio module
 subtitle: Learn how easy it is to send text (SMS) messages through your Drupal website using the Twilio module.
 date: 2015-02-11T10:00:00.000Z

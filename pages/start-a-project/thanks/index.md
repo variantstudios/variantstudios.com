@@ -1,8 +1,10 @@
 ---
 layout: page
+meta-title: 'Start here to get your new Website project proposal | Variant Studios'
+meta-description: 'Help us get a better understanding of your website needs by answering a few simple questions regarding your business and let us get started!'
+
 title: 'Thanks'
 subtitle: Thanks for contacting us we'll get back to you ASAP!
-meta-description: 'We are web designers focused on building beautiful Drupal Content Management System websites for Fort Collins, Greeley and Denver Colorado companies.'
 permalink: /start-a-project/thanks/
 header_class: studio--header
 ---

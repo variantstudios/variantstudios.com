@@ -1,4 +1,7 @@
 ---
+meta-title: 'Denver Fort Collins Colorado Search Engine Optimization SEO | VS'
+meta-description: 'We use trusted SEO techniques to help improve your websites ranking on major Search Engines, as well as providing vital stats to measure your results.'
+
 title: Search Engine Optimization (SEO)
 intro: Search Engine Optimization (SEO) is the process on enhancing your website's online visibility. We have helped many business increase their Search Engine ranking and overall online visibility.
 weight: 6

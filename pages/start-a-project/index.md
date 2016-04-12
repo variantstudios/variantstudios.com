@@ -1,8 +1,11 @@
 ---
 layout: default
+meta-title: 'Start here to get your new Website project proposal | Variant Studios'
+meta-description: 'Help us get a better understanding of your website needs by answering a few simple questions regarding your business and let us get started!'
+
 title: 'Start a project'
 subtitle: Thank you for your interest in working with Variant Studios. To allow us to more accurately examine your project and requirements, we ask that you answer the following questions. We aim to respond to all enquiries within 1 to 2 business days.
-meta-title: 'Start here to get your new Website project proposal | Variant Studios'
+
 permalink: /start-a-project/
 image_path: 
 header_class: portfolio--header

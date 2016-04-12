@@ -1,5 +1,8 @@
 ---
 layout: post
+meta-title: "Variant Studios' New 2014 Website"
+meta-description: "The project to rebuild and redesign a new VS website has always been a challenge. In 2014 we planned on creating a new website that better represented us."
+
 title: Variant Studios' New 2014 Website
 subtitle: The project to rebuild and redesign a new VS website has always been a challenge. In 2014 we planned on creating a new website that better represented us.
 date: 2014-08-28T10:00:00.000Z

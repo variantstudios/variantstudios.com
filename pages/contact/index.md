@@ -1,9 +1,11 @@
 ---
 layout: default
+meta-title: 'Contact Us | Variant Studios'
+meta-description: 'Have a project in mind? Need help making your online presence more impactful? We are ready to help! Drop us a line below and we will get back to you shortly.'
+
 title: 'Contact Us'
 subtitle: 'Have a project in mind? Need help making your online presence more impactful? We are ready to help! Drop us a line below and we will get back to you shortly.'
-meta-description: 'Have a project in mind? Need help making your online presence more impactful? We are ready to help! Drop us a line below and we will get back to you shortly.'
-meta-title: 'Contact Us | Variant Studios'
+
 permalink: /contact/
 image_path: 
 header_class: contact--banner

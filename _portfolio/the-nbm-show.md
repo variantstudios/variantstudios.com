@@ -1,4 +1,7 @@
 ---
+meta-title: 'The NBM Show, Colorado Drupal Web Design Portfolio'
+meta-description: 'The NBM Show provides multiple trade shows a year showcasing the best in the visual communications, apparel decorating, awards and engraving markets.'
+
 title: The NBM SHOW
 description: 'The NBM Show provides multiple trade shows a year showcasing the best in the visual communications, apparel decorating, awards and engraving markets.'
 live_date: 2015-11-02T00:00:00.000Z

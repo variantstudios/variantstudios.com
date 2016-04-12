@@ -1,4 +1,7 @@
 ---
+meta-title: 'Poudre Learning Center, Greeley Colorado | Drupal Web Design Portfolio'
+meta-description: 'The Poudre Learning Center is a premier facility for learning the importance of history, science, economics, stewardship and aesthetics of the Cache la Poudre River and Northeastern Colorado.'
+
 title: Poudre Learning Center
 description: The Poudre Learning Center is a premier facility for learning the importance of history, science, economics, stewardship and aesthetics of the Cache la Poudre River and Northeastern Colorado.
 live_date: 2014-10-01T00:00:00.000Z

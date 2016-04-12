@@ -1,4 +1,7 @@
 ---
+meta-title: 'The Larimer Chorale Fort Collins, Colorado | Web Design Portfolio'
+meta-description: 'The Larimer Chorale is one of the largest and most accomplished community choral ensembles in the Rocky Mountain Region.'
+
 title: The Larimer Chorale
 description: The Larimer Chorale is one of the largest and most accomplished community choral ensembles in the Rocky Mountain Region.
 live_date: 2014-03-01T00:00:00.000Z

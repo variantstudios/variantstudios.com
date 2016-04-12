@@ -1,4 +1,7 @@
 ---
+meta-title: 'Pioneer Engineering Fort Collins, Colorado | Drupal Web Design Portfolio'
+meta-description: 'Pioneer Engineering provides solutions and training in the fields of reliability engineering, mechanical design and vibration analysis.'
+
 title: Pioneer Engineering
 description: 'Pioneer Engineering provides solutions and training in the fields of reliability engineering, mechanical design and vibration analysis.'
 live_date: 2014-11-01T00:00:00.000Z

@@ -1,5 +1,7 @@
 ---
 layout: studio
+meta-title: 'A Fort Collins Colorado Drupal Web Design &amp; Development Studio | VS'
+meta-description: 'We are web designers focused on building beautiful Drupal Content Management System websites for Fort Collins, Greeley and Denver Colorado companies.'
 title: 'Studio'
 subtitle: 'We are a small group of skilled, passionate Colorado web designers.'
 meta-description: 'We are web designers focused on building beautiful Drupal Content Management System websites for Fort Collins, Greeley and Denver Colorado companies.'

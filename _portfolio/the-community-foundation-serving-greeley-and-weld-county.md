@@ -1,4 +1,7 @@
 ---
+meta-title: 'Community Foundation, Greeley Colorado | Drupal Web Design Portfolio'
+meta-description: 'The Community Foundation Serving Greeley and Weld County is a nonprofit organization focused on helping people and businesses with thier charitable and financial goals.'
+
 title: The Community Foundation Serving Greeley and Weld County
 description: The Community Foundation Serving Greeley and Weld County is a nonprofit organization focused on helping individuals, families, businesses and nonprofit agencies with their charitable and financial goals.
 live_date: 2014-107-01T00:00:00.000Z
