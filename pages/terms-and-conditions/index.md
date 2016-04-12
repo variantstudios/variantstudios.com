@@ -1,8 +1,11 @@
 ---
 layout: page
+
+meta-title: 'Terms and Condition of Use | Variant Studios'
+meta-description: 'Our website terms and conditions.'
+
 title: 'Terms and Conditions of Use'
-meta-description: 'Terms and Conditions of Use'
-meta-title: 'Terms and Conditions | VS'
+
 permalink: /terms-conditions/
 ---
 

@@ -1,4 +1,7 @@
 ---
+meta-title: 'Van Dyke Landscape Architects, California Drupal Web Design Portfolio'
+meta-description: 'VDLA specializes in landscape architecture, planning, irrigation design, water management services and graphic communication. '
+
 title: Van Dyke Landscape Architects
 description: VDLA specializes in landscape architecture, planning, irrigation design, water management services and graphic communication. 
 live_date: 2015-11-01T00:00:00.000Z

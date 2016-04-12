@@ -1,4 +1,7 @@
 ---
+meta-title: 'Red Hen Systems Fort Collins, Colorado | Drupal Web Design Portfolio'
+meta-description: 'Red Hen Systems develops hardware and software to assist in-field data collection. Red Hen Systems is a leader in geotagging data captured by photos, videos, and sensors.'
+
 title: Red Hen Systems
 description: Red Hen Systems develops hardware and software to assist in-field data collection. Red Hen Systems is a leader in geotagging data captured by photos, videos, and sensors.
 live_date: 2015-04-01T00:00:00.000Z

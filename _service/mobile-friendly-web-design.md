@@ -1,4 +1,7 @@
 ---
+meta-title: 'Denver, Fort Collins Mobile Friendly Responsive Web Design | VS'
+meta-description: 'We sepcialize in designing custom Mobile Friendly websites using Responsive Web Design to make sure your site looks and works great on any device.'
+
 title: Mobile Friendly Web Design
 intro: The growth of website visitors using mobile devices or tablets is increasing drastically and those numbers keep climbing. Experts predict in 2015 we will see approximately 50% of all web traffic using a mobile device. It is crucial for website owners to not only consider but to make sure their current website or a new website is optimized for mobile devices.
 weight: 2

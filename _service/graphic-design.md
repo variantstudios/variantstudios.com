@@ -1,4 +1,7 @@
 ---
+meta-title: 'Denver Fort Collins Colorado Graphic Design, Branding, Logos | VS'
+meta-description: 'From traditional print projects to digital media, Variant Studios can work with your business to fulfil all of your creative needs.'
+
 title: Graphic Design
 intro: Variant Studios provides a wide range of graphic design services from designs for corporate logos, websites, mobile devices and traditional print media we can help your business grow.
 weight: 4

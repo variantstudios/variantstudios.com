@@ -1,7 +1,10 @@
 ---
 layout: post
+meta-title: "Designing for the Web"
+meta-description: "Designing for an ever changing medium like the web holds many challenges. Technology moves so fast it's easy to fall behind and not cover all the bases necessary to make a site all it needs to be in 2014."
+
 title: Designing for the Web
-subtitle: Designing for an ever changing medium like the web holds many challenges. Technology moves so fast it's easy to fall behind and not cover all the bases necessary to make a site all it needs to be in 2014.
+subtitle: 
 date: 2014-10-15T10:00:00.000Z
 author: Michael McQueen
 thumbnail: /assets/images/journal/designing-for-the-web/teaser-header.jpg

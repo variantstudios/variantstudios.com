@@ -1,8 +1,9 @@
 ---
 layout: page
+meta-title: 'Contact Us - Thank You | Variant Studios'
+meta-description: 'Have a project in mind? Need help making your online presence more impactful? We are ready to help! Drop us a line below and we will get back to you shortly.'
 title: 'Thanks'
 subtitle: Thanks for contacting us we'll get back to you ASAP!
-meta-description: 'We are web designers focused on building beautiful Drupal Content Management System websites for Fort Collins, Greeley and Denver Colorado companies.'
 permalink: /contact/thanks/
 header_class: studio--header
 ---

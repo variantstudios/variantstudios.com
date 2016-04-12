@@ -1,4 +1,7 @@
 ---
+meta-title: 'Denver Fort Collins Colorado Drupal E-Commerce Solutions | VS'
+meta-description: 'Variant Studios uses the Drupal Commerce module to build successful ecommerce websites with an easy to use shopping cart and loads of features.'
+
 title: E-commerce
 intro: E-commerce is a way for businesses to sell their products, services or even access to special online content. There are many different forms of e-commerce and Variant Studios has the experience and expertise to get your E-commerce website started.
 weight: 5

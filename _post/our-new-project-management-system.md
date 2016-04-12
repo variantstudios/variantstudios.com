@@ -1,5 +1,8 @@
 ---
 layout: post
+meta-title: "Our New Project Management System"
+meta-description: "As a project manager, I have obsessed for years to find the best project management system."
+
 title: Our New Project Management System
 subtitle: As a project manager, I have obsessed for years to find the "best" project management system.
 date: 2014-10-15T10:00:00.000Z

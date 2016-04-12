@@ -1,4 +1,7 @@
 ---
+meta-title: 'Denver, Fort Collins, Colorado Drupal CMS Solutions | VS'
+meta-description: 'We sepcialize in building custom-tailored, powerful, easy-to-use Drupal Content Management System websites for your Colorado business.'
+
 title: Drupal
 intro: A Content Management System is a platform that allows you to manage, edit and publish content in a consistently organized way without any special software or programming knowledge. While there are thousands of different content management systems that range in form, function and capability, Variant Studios specializes in website development using a CMS called Drupal. We have designed custom Drupal websites for small companies to large organizations throughout Fort Collins, Greeley and Denver, Colorado.
 weight: 1
