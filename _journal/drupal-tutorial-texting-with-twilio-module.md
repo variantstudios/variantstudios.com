@@ -23,7 +23,7 @@ There are many other possible ideas, but we just wanted to get the basic foundat
 
 I also want to note that there are many other ways to do this, but my goal here was to avoid heavier modules and to keep things as simple as possible.
 
-<div class="video-responsive-container"><iframe frameborder="0" scrolling="no" src="//www.youtube.com/v/p1H0gAVpsD4?rel=0&amp;vq=hd720"></iframe></div>
+<div class="video-responsive-container"><iframe frameborder="0" scrolling="no" src="https://www.youtube.com/embed/p1H0gAVpsD4?rel=0&amp=&vq=hd720"></iframe></div>
 
 # Tutorial
 
