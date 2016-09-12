@@ -9,13 +9,13 @@ location: 'Greeley, Colorado'
 link: 'http://www.greeleyunexpected.com/'
 thumbnail: /assets/images/projects/greeleyunexpected/thumb.jpg
 gallery_images:
-  - title: Template
+  - title: Greeley Unexpected Website
     image: /assets/images/projects/greeleyunexpected/vs-macbook-template.jpg
-  - title: Template
+  - title: Greeley Unexpected Website
     image: /assets/images/projects/greeleyunexpected/vs-iphone-template.jpg
-  - title: Template
+  - title: Greeley Unexpected Website
     image: /assets/images/projects/greeleyunexpected/vs-screenshot-template.jpg
 weight: 14
+publish: true
 permalink: /portfolio/greeley-unexpected/
 ---
-

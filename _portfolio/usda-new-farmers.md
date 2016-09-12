@@ -14,6 +14,6 @@ gallery_images:
   - title: Template
     image: /assets/images/projects/usdanewfarmers/vs-macbook-template2.jpg
 weight: 2
+publish: true
 permalink: /portfolio/usda-new-farmers/
 ---
-

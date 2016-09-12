@@ -9,11 +9,11 @@ location: 'Fort Collins, Colorado'
 link: 'http://www.screaminpeach.com/'
 thumbnail: /assets/images/projects/screaminpeach/thumb.jpg
 gallery_images:
-  - title: Template
+  - title: "Screamin' Peach Website"
     image: /assets/images/projects/screaminpeach/vs-macbook-template.jpg
-  - title: Template
+  - title: "Screamin' Peach Website"
     image: /assets/images/projects/screaminpeach/vs-screenshot-template.jpg
 weight: 15
+publish: true
 permalink: /portfolio/the-screamin-peach/
 ---
-

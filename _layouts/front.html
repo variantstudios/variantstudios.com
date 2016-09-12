@@ -12,6 +12,7 @@ layout: default
 
   {% assign projects = site.portfolio | sort: "weight" %}
   {% for item in projects limit:3 %}
+  {% if item.url != '/portfolio/branding/'  and item.publish != false %}
     <article class="project-item">
         <a href="{{ item.url }}" title="View {{ item.title }} Project">
           <img src="{{ item.thumbnail }}" alt="{{ item.title }}">
@@ -24,7 +25,7 @@ layout: default
           <a href="{{ item.url }}" title="View Project">View Project</a>
         </div>
     </article>
-
+  {% endif %}
   {% endfor %}
 
 </section>

@@ -9,10 +9,11 @@ location: Greeley, Colorado
 link: http://www.poudrelearningcenter.org/
 thumbnail: /assets/images/projects/poudrelearningcenter/thumb.jpg
 gallery_images:
-  - title: New Desktop Website Screenshot - The NBM SHOW
+  - title: New Desktop Website Screenshot - Poudre Learning Center
     image: /assets/images/projects/poudrelearningcenter/vs-macbook-template.jpg
-  - title: New Mobile Website Screenshots - The NBM SHOW
+  - title: New Mobile Website Screenshots - Poudre Learning Center
     image: /assets/images/projects/poudrelearningcenter/vs-iphone-template.jpg
 weight: 13
+publish: true
 permalink: /portfolio/poudre-learning-center/
 ---

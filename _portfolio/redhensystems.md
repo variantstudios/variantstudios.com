@@ -14,5 +14,6 @@ gallery_images:
   - title: New Mobile Website Screenshots - Red Hen Systems
     image: /assets/images/projects/redhensystems/vs-iphone-template.jpg
 weight: 3
+publish: true
 permalink: /portfolio/redhensystems/
 ---

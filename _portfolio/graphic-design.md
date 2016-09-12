@@ -23,5 +23,6 @@ gallery_images:
     image: /assets/images/projects/graphicdesign/myer-logo.jpg
   - title: Solarium International Hostel
     image: /assets/images/projects/graphicdesign/hostel.jpg
+publish: true
 weight: 99
 ---

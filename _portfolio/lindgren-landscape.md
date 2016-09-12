@@ -9,10 +9,11 @@ location: Fort Collins, Colorado
 link: http://www.lindgrenlandscape.com/
 thumbnail: /assets/images/projects/lindgrenlandscape/thumb.jpg
 gallery_images:
-  - title: New Desktop Website Screenshot - Fossil Creek Nursery
+  - title: New Desktop Website Screenshot - Lindgren Landscape
     image: /assets/images/projects/lindgrenlandscape/vs-macbook-template.jpg
-  - title: New Mobile Website Screenshots - Fossil Creek Nursery
+  - title: New Mobile Website Screenshots - Lindgren Landscape
     image: /assets/images/projects/lindgrenlandscape/vs-ipad-template01.jpg
 weight: 12
+publish: true
 permalink: /portfolio/lindgren-landscape/
 ---
