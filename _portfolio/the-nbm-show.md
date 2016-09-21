@@ -13,7 +13,7 @@ gallery_images:
     image: /assets/images/projects/thenbmshow/vs-macbook-template.jpg
   - title: New Mobile Website Screenshots - The NBM SHOW
     image: /assets/images/projects/thenbmshow/vs-iphone-template.jpg
-weight: 1
+weight: 4
 publish: true
 permalink: /portfolio/the-nbm-show/
 ---
