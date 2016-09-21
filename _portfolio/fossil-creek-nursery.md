@@ -14,5 +14,6 @@ gallery_images:
   - title: New Mobile Website Screenshots - Fossil Creek Nursery
     image: /assets/images/projects/fossilcreeknursery/vs-iphone-template.jpg
 weight: 11
+publish: true
 permalink: /portfolio/fossil-creek-nursery/
 ---

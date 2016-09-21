@@ -14,5 +14,6 @@ gallery_images:
   - title: New Mobile Website Screenshots - The Community Foundation Serving Greeley and Weld County
     image: /assets/images/projects/cfsgwc/vs-iphone-template.jpg
 weight: 16
+publish: true
 permalink: /portfolio/the-community-foundation-serving-greeley-and-weld-county/
 ---

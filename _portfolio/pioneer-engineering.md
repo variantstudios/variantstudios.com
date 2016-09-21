@@ -14,6 +14,6 @@ gallery_images:
   - title: Pioneer Engineering
     image: /assets/images/projects/pioneerengineering/vs-ipad-template.jpg
 weight: 9
+publish: true
 permalink: /portfolio/pioneer-engineering/
 ---
-

@@ -12,5 +12,6 @@ gallery_images:
   - title: Template
     image: /assets/images/projects/theshopmag/vs-macbook-template.jpg
 weight: 7
+publish: true
 permalink: /portfolio/the-shop-mag/
 ---

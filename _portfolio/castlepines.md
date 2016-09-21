@@ -9,10 +9,11 @@ location: 'Castle Pines, Colorado'
 link: 'http://www.castlepinesgov.com/'
 thumbnail: /assets/images/projects/castlepines/thumb.jpg
 gallery_images:
-  - title: New Desktop Website Screenshot - The NBM SHOW
+  - title: New Desktop Website Screenshot - City of Castle Pines
     image: /assets/images/projects/castlepines/vs-macbook-template.jpg
-  - title: New Mobile Website Screenshots - The NBM SHOW
+  - title: New Mobile Website Screenshots - City of Castle Pines
     image: /assets/images/projects/castlepines/vs-iphone-template.jpg
 weight: 6
+publish: true
 permalink: /portfolio/castlepines/
 ---

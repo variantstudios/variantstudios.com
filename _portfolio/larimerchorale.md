@@ -14,5 +14,6 @@ gallery_images:
   - title: New Mobile Website Screenshots - The Larimer Chorale
     image: /assets/images/projects/larimerchorale/vs-iphone-template.jpg
 weight: 10
+publish: true
 permalink: /portfolio/larimerchorale/
 ---

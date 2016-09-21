@@ -10,9 +10,9 @@ location: 'Windsor, Colorado'
 link: 'http://www.mychironow.com/'
 thumbnail: /assets/images/projects/mychironow/thumb.jpg
 gallery_images:
-  - title: Template
+  - title: Chiro Now!
     image: /assets/images/projects/mychironow/vs-macbook-template.jpg
 weight: 19
+publish: true
 permalink: /portfolio/mychironow/
 ---
-

@@ -9,12 +9,13 @@ location: 'Denver, Colorado'
 link: 'http://www.gastrorockies.com/'
 thumbnail: /assets/images/projects/gastrorockies/thumb.jpg
 gallery_images:
-  - title: Template
+  - title: Gastro Center of the Rockies
     image: /assets/images/projects/gastrorockies/vs-macbook-template.jpg
-  - title: Template
+  - title: Gastro Center of the Rockies
     image: /assets/images/projects/gastrorockies/vs-iphone-template.jpg
-  - title: Template
+  - title: Gastro Center of the Rockies
     image: /assets/images/projects/gastrorockies/vs-screenshot-template.jpg
 weight: 17
+publish: true
 permalink: /portfolio/gastro-center-of-the-rockies/
 ---

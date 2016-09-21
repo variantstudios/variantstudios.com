@@ -14,5 +14,6 @@ gallery_images:
   - title: New Mobile Website Screenshots - Lisa Cameron Russell
     image: /assets/images/projects/lisajcameron/vs-iphone.jpg
 weight: 4
+publish: true
 permalink: /portfolio/lisajcameron/
 ---

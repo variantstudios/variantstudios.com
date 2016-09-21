@@ -12,6 +12,6 @@ gallery_images:
   - title: Template
     image: /assets/images/projects/usdaoascr/vs-macbook-template.jpg
 weight: 5
+publish: true
 permalink: /portfolio/usda-oascr/
 ---
-
