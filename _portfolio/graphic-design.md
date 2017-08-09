@@ -10,6 +10,8 @@ thumbnail: /assets/images/projects/graphicdesign/thumb.jpg
 gallery_images:
   - title: Greeley Auto Spa
     image: /uploads/autospa-logo-w-tagline.png
+  - title: Skye Lux Clothing
+    image: /uploads/slc-expanded-logo.png
   - title: Six Star Cars
     image: /assets/images/projects/graphicdesign/sixstar.jpg
   - title: Colorado Tap House
