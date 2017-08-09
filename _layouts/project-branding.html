@@ -9,7 +9,7 @@ layout: default
 </header>
 <div class="project-images">
   {% for item in page.gallery_images %}
-   <img src="{{ item.image }}" title="{{ item.title }}" alt="{{ item.title }}" itemprop="image" align="center"/><br />
+   <img src="{{ item.image }}" title="{{ item.title }}" alt="{{ item.title }}" itemprop="image" style="margin: 0 auto; display: block;"/><br />
    <h6>{{ item.title }}</h6>
 {% endfor %}
 </div>
