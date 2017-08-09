@@ -1,14 +1,15 @@
 ---
 layout: project-branding
-meta-title: 'Fort Colorado Graphic Design Portfolio | VS'
+meta-title: Fort Colorado Graphic Design Portfolio | VS
 meta-description: 'A collection of our client graphic design, branding and logo work.'
-
 title: Branding
 description: A collection of our branding and logo design work.
-live_date: ''
+live_date:
 location: 'Fort Collins, Colorado'
 thumbnail: /assets/images/projects/graphicdesign/thumb.jpg
 gallery_images:
+  - title: Greeley Auto Spa
+    image: /uploads/autospa-logo-w-tagline.png
   - title: Six Star Cars
     image: /assets/images/projects/graphicdesign/sixstar.jpg
   - title: Colorado Tap House
@@ -26,3 +27,5 @@ gallery_images:
 publish: true
 weight: 99
 ---
+
+
