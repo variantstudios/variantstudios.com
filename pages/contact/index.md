@@ -58,6 +58,6 @@ header_class: contact--banner
     <input class="sendButton" type="submit" name="Submit" value="Send">
 </form>
 
-<div class="map">
-<iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/variantstudiosteam.jbofafjf/attribution,zoompan,geocoder.html?access_token=pk.eyJ1IjoidmFyaWFudHN0dWRpb3N0ZWFtIiwiYSI6IkJOeWd1dWMifQ.EpahpXGBtmn_3IROFYRS5w'></iframe>
-</div>
+<!--<div class="map">-->
+<!--<iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/variantstudiosteam.jbofafjf/attribution,zoompan,geocoder.html?access_token=pk.eyJ1IjoidmFyaWFudHN0dWRpb3N0ZWFtIiwiYSI6IkJOeWd1dWMifQ.EpahpXGBtmn_3IROFYRS5w'></iframe>-->
+<!--</div>-->
